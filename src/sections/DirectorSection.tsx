@@ -15,8 +15,8 @@ export default function DirectorSection() {
             transition={{ duration: 1, ease: [0.76, 0, 0.24, 1] as [number, number, number, number] }}
           >
             <img
-              src="/imagenes/drothon/ceo.png"
-              alt="Dr. Othon V. Delgadillo — Director & CEO"
+              src="/imagenes/dentco/logo.png"
+              alt="Dentco — Director"
               className="director__photo"
             />
             {/* Accent frame */}
@@ -36,7 +36,7 @@ export default function DirectorSection() {
             </motion.span>
 
             <RevealText tag="h2" className="director__name">
-              Dr. Othon V. Delgadillo
+              Director(a) Pendiente
             </RevealText>
 
             <motion.div
@@ -46,11 +46,11 @@ export default function DirectorSection() {
               viewport={{ once: true }}
               transition={{ delay: 0.3, duration: 0.6 }}
             >
-              <span className="director__credential">Implantes y Estética</span>
+              <span className="director__credential">Odontología Integral</span>
               <span className="director__credential-dot" />
-              <span className="director__credential">Odontología General</span>
+              <span className="director__credential">Más de 10 años</span>
               <span className="director__credential-dot" />
-              <span className="director__credential">Boutique Dental</span>
+              <span className="director__credential">de experiencia</span>
             </motion.div>
 
             <motion.blockquote
@@ -60,10 +60,7 @@ export default function DirectorSection() {
               viewport={{ once: true }}
               transition={{ delay: 0.4, duration: 0.7 }}
             >
-              "Nuestra visión es ser un referente dentro del sector de la odontología,
-              tanto por la calidad de nuestro trabajo como el trato humano. Buscamos
-              mantener la salud bucal y mejorar la estética, para favorecer la calidad
-              de vida de miles de personas."
+              "En Dentco transformamos sonrisas con tecnología de vanguardia y atención profesional. Nuestro compromiso es brindarte tratamientos de alta calidad en un ambiente cómodo y seguro."
             </motion.blockquote>
 
             <motion.div
@@ -77,8 +74,8 @@ export default function DirectorSection() {
               }}
             >
               {[
-                { value: '+5', label: 'Años de experiencia' },
-                { value: '+2,000', label: 'Pacientes atendidos' },
+                { value: '+10', label: 'Años de experiencia' },
+                { value: '+5,000', label: 'Pacientes atendidos' },
                 { value: '100%', label: 'Dedicación' },
               ].map((stat) => (
                 <motion.div
@@ -107,8 +104,8 @@ export default function DirectorSection() {
               transition={{ delay: 0.8, duration: 0.8 }}
             >
               <div className="director__signature-line" />
-              <span className="director__signature-name">Dr. Othon V. Delgadillo</span>
-              <span className="director__signature-role">Director — Dr. Othón Boutique Dental</span>
+              <span className="director__signature-name">Director(a) Pendiente</span>
+              <span className="director__signature-role">Director — Dentco</span>
             </motion.div>
           </div>
         </div>

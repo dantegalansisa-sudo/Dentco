@@ -29,19 +29,19 @@ export default function MapSection() {
           <div className="map-section__info">
             <div className="map-section__detail">
               <span className="map-section__detail-label">Dirección</span>
-              <span className="map-section__detail-value">Plaza Lia, Naco</span>
+              <span className="map-section__detail-value">Ave. Bolivar Esq. Leopoldo Navarro No.357</span>
               <span className="map-section__detail-value" style={{ color: 'rgba(255,255,255,0.4)' }}>Santo Domingo, República Dominicana</span>
             </div>
             <div className="map-section__detail">
               <span className="map-section__detail-label">Horario</span>
               <span className="map-section__detail-value">Lunes - Viernes: 9:00 AM - 6:00 PM</span>
-              <span className="map-section__detail-value">Sábados: 9:00 AM - 2:00 PM</span>
+              <span className="map-section__detail-value">Sábados: 9:00 AM - 1:00 PM</span>
               <span className="map-section__detail-value" style={{ color: 'rgba(255,255,255,0.4)' }}>Domingos: Cerrado</span>
             </div>
             <div className="map-section__detail">
               <span className="map-section__detail-label">Contacto</span>
-              <a href="https://instagram.com/drothon_boutiquedental" target="_blank" rel="noopener noreferrer" className="map-section__detail-value map-section__link">@drothon_boutiquedental</a>
-              <a href="https://wa.me/message/HL77R3SXVOVRK1" target="_blank" rel="noopener noreferrer" className="map-section__detail-value map-section__link">WhatsApp Directo</a>
+              <a href="https://instagram.com/dentcodr" target="_blank" rel="noopener noreferrer" className="map-section__detail-value map-section__link">@dentcodr</a>
+              <a href="https://wa.me/18096877707" target="_blank" rel="noopener noreferrer" className="map-section__detail-value map-section__link">WhatsApp Directo</a>
             </div>
           </div>
 
@@ -54,7 +54,7 @@ export default function MapSection() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ubicación Dr. Othón Boutique Dental"
+              title="Ubicación Dentco"
             />
           </div>
         </motion.div>

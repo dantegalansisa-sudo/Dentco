@@ -33,8 +33,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 1, ease: [0.76, 0, 0.24, 1] }}
         >
-          <span className="hero__brand-name">Dr. Othón</span>
-          <span className="hero__brand-name hero__brand-name--accent">Dental</span>
+          <img src="/imagenes/dentco/logo.png" alt="Dentco" style={{ maxHeight: '110px', maxWidth: '300px', width: 'auto', objectFit: 'contain' }} />
         </motion.div>
 
         <motion.div
@@ -107,12 +106,12 @@ export default function HeroSection() {
           transition={{ delay: 2.6, duration: 1 }}
         >
           <div className="data-point">
-            <span className="data-number">+2,000</span>
+            <span className="data-number">+5,000</span>
             <span className="data-label">{t('hero.smiles')}</span>
           </div>
           <div className="data-divider" />
           <div className="data-point">
-            <span className="data-number">5+</span>
+            <span className="data-number">10+</span>
             <span className="data-label">{t('hero.years')}</span>
           </div>
           <div className="data-divider" />
