@@ -83,8 +83,9 @@ function Navbar() {
   return (
     <>
       <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
-        <a href="/" className="navbar__logo">
+        <a href="/" className="navbar__logo" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           <img src="/imagenes/dentco/logo.png" alt="Dentco" className="navbar__logo-img" style={{ height: '50px', width: 'auto' }} />
+          <span style={{ fontFamily: 'var(--font-brutal)', fontSize: '13px', letterSpacing: '0.08em', color: 'var(--primary)', textTransform: 'uppercase', lineHeight: '1.2' }}>Dentco</span>
         </a>
 
         <ul className="navbar__links">
